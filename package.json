@@ -1,0 +1,19 @@
+{
+  "name": "netlify-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html --no-cache",
+    "purge-css": "purgecss --css ./dist/app.ed7d1cf1.css --content ./dist/index.html --out ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "parcel-bundler": "^1.10.3",
+    "purgecss": "^1.1.0",
+    "tailwindcss": "^0.7.0"
+  }
+}
