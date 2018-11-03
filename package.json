@@ -1,11 +1,10 @@
 {
-  "name": "netlify-tailwind-css",
+  "name": "tailwind-css-fun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./index.html --no-cache",
-    "purge-css": "purgecss --css ./dist/app.ed7d1cf1.css --content ./dist/index.html --out ./"
+    "start": "parcel ./src/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
